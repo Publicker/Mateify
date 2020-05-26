@@ -4,3 +4,52 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.main-head{
+    margin-top: 30px;
+    border-bottom: solid;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-container__form{
+    border-bottom: solid;
+    padding-bottom: 20px;
+}
+
+.main-container__form-text{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.main-container__register{
+    margin-top: 30px;
+}
+
+.main-container__form-buttoms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.main-container__register-bottoms{
+    color: black;
+    border-radius: 15px;
+    border: solid;
+}
+
+.main-container__form-buttoms__login{
+    background-color: #75df0c;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 25px;
+}
