@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="registro.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="registro.css">
     <title>Document</title>
+
 </head>
+
 <body>
     
+    <header class="main-head"><img src="" alt="Logo de Mateifly"></header>
+
+    <div class="main-container">
+
+        <p><b>Registrate con tu direccion de email</b></p>
+        
+        <form class="main-container__form">
+
+            <input class="main-container__form-text" placeholder="Correo electronico" type="text" required><br>
+            <input class="main-container__form-text" placeholder="Confirmar correo electronico" type="text" required><br>
+            <input class="main-container__form-text" placeholder="Contraseña" type="password" required><br>
+            <input class="main-container__form-text" placeholder="confirmar Contraseña" type="password" required><br>
+
+            
+            <div class="main-container__form-date">
+
+                <p>Fecha de nacimiento</p><br>
+
+                <div><input type="number" placeholder="Dia" min="1" max="31"></div>
+                <div><input type="number" placeholder="mes" min="1" max="12"></div>
+                <div><input type="number" placeholder="año" min="1900" max="2020"></div>
+                <div><input type="checkbox" id="recording">
+                <label for="recording">recuerdame</label></div>
+                <div><a class="main-container__form-buttoms__login" type="buttom" href="#">INICIAR SESION</a></div>
+
+            </div>
+
+            <a type="link" href="#">¿Has olvidado la contraseña?</a>
+        </form>
+
+        <div class="main-container__register">
+            <p><b>¿No tienes cuenta?</b></p>
+            <a class="main-container__register-bottoms" type="buttom" href="#"><b>REGISTRATE</b></a>
+        </div>
+
+    </div>
+
+    <footer class="main-feet">Diseñado en Uruguay</footer>
+
 </body>
+
 </html>
