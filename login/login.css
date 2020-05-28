@@ -6,9 +6,9 @@ body{
 }
 
 .main-head{
-    margin-top: 30px;
+    margin-top: 15px;
     border-bottom: solid;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     width: 100%;
     text-align: center;
 }
@@ -42,14 +42,21 @@ body{
 
 .main-container__register-bottoms{
     color: black;
-    border-radius: 15px;
+    border-radius: 17px;
     border: solid;
+    padding: 5px 40px;
 }
 
 .main-container__form-buttoms__login{
     background-color: #75df0c;
     color: white;
     border-radius: 15px;
-    width: 150px;
-    height: 25px;
+    padding: 2px 20px;
+}
+
+.main-foot{
+    border-top: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
 }

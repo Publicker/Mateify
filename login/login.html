@@ -4,8 +4,6 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="login.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
 </head>
@@ -19,15 +17,14 @@
         <p><b>Para continuar inicia sesión</b></p>
         
         <form class="main-container__form">
-            <label for="mail">Correo electronico o nombre de usuario</label><br>
-            <input class="main-container__form-text" type="text" name="mail"><br>
-            <label for="password">Contraseña</label><br>
-            <input class="main-container__form-text" type="password" name="password"><br>
+            <input class="main-container__form-text" placeholder="Correo electronico o nombre de usuario" type="text" name="mail" required><br>
+            <input class="main-container__form-text" placeholder="Contraseña" type="password" name="password" required><br>
                 
             <div class="main-container__form-buttoms">
 
-                <input type="checkbox"><p>recuerdame</p>
-                <a class="main-container__form-buttoms__login" type="buttom" href="#">INICIAR SESION</a>
+               <div><input type="checkbox" id="recording">
+                <label for="recording">recuerdame</label></div>
+               <div><a class="main-container__form-buttoms__login" type="buttom" href="#">INICIAR SESION</a></div>
 
             </div>
 
@@ -40,6 +37,8 @@
         </div>
 
     </div>
+
+    <footer class="main-foot">Diseñado en Uruguay</footer>
 
 </body>
 
