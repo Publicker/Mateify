@@ -3,6 +3,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    line-height: 52px;
 }
 
 .main-head{
@@ -25,7 +27,7 @@ body{
 
 .main-container__form-text{
     width: 400px;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .main-container__register{
