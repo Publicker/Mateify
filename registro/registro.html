@@ -18,31 +18,45 @@
         
         <form class="main-container__form">
 
-            <input class="main-container__form-text" placeholder="Correo electronico" type="text" required><br>
-            <input class="main-container__form-text" placeholder="Confirmar correo electronico" type="text" required><br>
+            <input class="main-container__form-text" placeholder="Correo electronico" type="email" required><br>
+            <input class="main-container__form-text" placeholder="Confirmar correo electronico" type="email" required><br>
             <input class="main-container__form-text" placeholder="Contraseña" type="password" required><br>
             <input class="main-container__form-text" placeholder="confirmar Contraseña" type="password" required><br>
 
             
             <div class="main-container__form-date">
 
-                <p>Fecha de nacimiento</p><br>
+                <p id="fecha-de-nacimiento">Fecha de nacimiento</p>
 
-                <div><input type="number" placeholder="Dia" min="1" max="31"></div>
-                <div><input type="number" placeholder="mes" min="1" max="12"></div>
-                <div><input type="number" placeholder="año" min="1900" max="2020"></div>
-                <div><input type="checkbox" id="recording">
-                <label for="recording">recuerdame</label></div>
-                <div><a class="main-container__form-buttoms__login" type="buttom" href="#">INICIAR SESION</a></div>
+                <div class="main-container__form-date__age">
+
+                    <div><input class="main-container__form-date__age-data" type="number" placeholder="Dia" min="1" max="31"></div>
+                    <div><input class="main-container__form-date__age-data" type="number" placeholder="mes" min="1" max="12"></div>
+                    <div><input class="main-container__form-date__age-data" type="number" placeholder="año" min="1900" max="2020"></div>
+
+                </div>
+
+                <div class="main-container__form-date__gender">
+
+                    <div><input type="radio" id="male" value="male">
+                    <label for="male">masculino</label></div>
+
+                    <div><input type="radio" id="famale" value="famale">
+                    <label for="famale">femenino</label></div>
+
+                    <div><input type="radio" id="other" value="other">
+                    <label for="other">otros</label></div>
+
+                </div>
 
             </div>
 
-            <a type="link" href="#">¿Has olvidado la contraseña?</a>
+            <a class="main-container__form-registro" type="buttom" href="#">REGISTRARSE</a>
         </form>
 
-        <div class="main-container__register">
-            <p><b>¿No tienes cuenta?</b></p>
-            <a class="main-container__register-bottoms" type="buttom" href="#"><b>REGISTRATE</b></a>
+        <div class="main-container__login">
+            <p><b>¿Ya tienes cuenta?</b></p>
+            <a class="main-container__login-bottoms" type="buttom" href="#"><b>INICIAR SESION</b></a>
         </div>
 
     </div>
