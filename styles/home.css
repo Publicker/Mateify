@@ -1,0 +1,127 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 7.2rem auto 7.2rem;
+}
+
+input {
+    border:none;
+    background-image:none;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+button.primary {
+    border: 0;
+    border-radius: 42px;
+    padding: 12px;
+    background-color: #1ED760;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Input */
+.has-search .form-control {
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 3rem;
+    border-radius: 33px;
+}
+
+.has-search .form-control::placeholder{
+    color: #C7C7CF;
+}
+
+/* Input's Icon */
+.has-search .form-control-feedback {
+    padding-left: 1.2rem;
+    padding-bottom: 2px;
+    pointer-events: none;
+    font-size: 1.2rem;
+    color: #C7C7CF;
+}
+
+nav h2 {
+    font-family: 'Righteous', cursive;
+}
+
+.fit-image {
+    object-fit: cover;
+}
+
+main > img {
+    z-index: -20;
+}
+
+main h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+main button.primary{
+    margin-top: 3rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.active a {
+    font-weight: bold;
+}
+
+.bg-dark-own {
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        grid-template-rows: unset;
+    }
+
+    main.p-5{
+        padding: 1rem !important;
+    }
+
+    main h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    main h3 {
+        margin-bottom: 3rem;
+    }
+
+    main button.primary {
+        content:'CREA UNA PLAYLIST NUEVA'; 
+    }
+
+    #footer{
+        position: absolute;
+        bottom: 0;
+        background-color: transparent;
+        width: 100%;
+        justify-content: center;
+    }
+}

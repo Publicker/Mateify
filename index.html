@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mateify</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/home.css">
 </head>
 <body>
-    <h1>Mateify</h1>
+    <!-- NavBar top-->
+    <nav class="navbar navbar-dark bg-dark-own px-5 d-none d-md-flex">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Matea's logo">
+            <h2 class="ml-3 mb-0">Mateify</h2>
+        </a>
+        <div class="ml-auto">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="#">Registrarse</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Iniciar Sesión <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main image with inputs -->
+    <main class="position-relative d-flex justify-content-center align-items-center w-100 h-100 p-5">
+        <img class="position-absolute w-100 h-100 fit-image" src="./assets/people.png" alt="People dancing">
+        <div class="overlay"></div>
+        <div class="d-flex flex-column">
+            <img src="./assets/logo.png" width="80" height="80" class="d-block d-md-none align-top fit-image mx-auto mb-5" alt="Matea's logo">
+            <h1 class="col-12 text-uppercase font-weight-bold text-center">Pongamos música, juntos</h1>
+            <h3 class="col-12 d-block d-md-none text-center">Busca o crea una playlist</h3>
+            <div id="container-form" class="col-12 col-md-10 mx-auto d-flex flex-column">
+                <div class="form-group has-search position-relative">
+                    <span class="fa fa-search form-control-feedback position-absolute d-flex align-items-center w-100 h-100"></span>
+                    <input type="text" class="form-control border-0" placeholder="Buscar una playlist">
+                </div>
+                <button class="primary col-12 col-md-6 mx-auto">Nueva playlist</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <nav id="footer" class="navbar navbar-dark bg-dark-own px-5">
+        <span class="navbar-text d-none d-md-block">
+            Diseñado en Uruguay
+        </span>
+        <span class="navbar-text">
+            Powered by
+            <img src="./assets/spotify_logo.png" alt="">
+        </span>
+    </nav>
 </body>
 </html>
