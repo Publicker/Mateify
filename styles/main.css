@@ -1,0 +1,57 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 7.2rem auto 7.2rem;
+}
+
+nav h2 {
+    font-family: 'Righteous', cursive;
+}
+
+input {
+    border:none;
+    background-image:none;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+button.primary {
+    border: 0;
+    border-radius: 42px;
+    padding: 12px;
+    background-color: #1ED760;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Input */
+input.primary {
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 3rem;
+    border-radius: 33px;
+    border: 0;
+}
+
+input.primary::placeholder{
+    color: #C7C7CF;
+}
+
+/* Input's Icon */
+.has-search .form-control-feedback {
+    padding-left: 1.2rem;
+    padding-bottom: 2px;
+    pointer-events: none;
+    font-size: 1.2rem;
+    color: #C7C7CF;
+}
