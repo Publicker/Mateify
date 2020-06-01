@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Font awesome -> Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -> CSS framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Montserrat & Righteous families fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/login.css">
+    <title>Mateify - Login</title>
+</head>
+
+<body>
+    <!-- Navbar top-->
+    <nav class="navbar px-5 d-md-flex">
+        <a class="navbar-brand mx-auto" href="/">
+            <img src="./assets/logo_black.png" width="30" height="30" class="d-inline-block align-top"
+                alt="Matea's logo">
+            <h2 class="ml-3 mb-0">Mateify</h2>
+        </a>
+    </nav>
+
+    <main class="text-center my-5">
+        <p>Para continuar inicia sesión</p>
+        <form class="main-container__form">
+            <input class="main-container__form-text primary field" placeholder="Confirmar correo electrónico" type="email"
+                required>
+            <input class="main-container__form-text primary field" placeholder="Contraseña" type="password" required>
+            <div class="main-container__form-buttoms">
+                <div>
+                    <input type="checkbox" id="recording">
+                    <label for="recording">Recuérdame</label>
+                </div>
+                <button class="primary text-uppercase">Iniciar sesión</button>
+
+            </div>
+            <a class="mt-4 font-weight-bold" type="link" href="#">¿Has olvidado la contraseña?</a>
+        </form>
+        <div class="main-container__login">
+            <p class="mx-auto pt-3">¿No tienes cuenta?</p>
+            <button onclick="location.href = 'registro.html';" class="main-container__login-bottoms font-weight-bold text-uppercase">Registrate</button>
+        </div>
+
+        <!-- <div class="main-container__register">
+            <p>¿No tienes cuenta?</p>
+            <a class="main-container__register-bottoms" type="buttom" href="#">REGISTRATE</a>
+        </div> -->
+    </main>
+    <!-- Footer -->
+    <footer class="navbar bg-dark-own px-5 d-none d-md-flex">
+        <span class="navbar-text d-none d-md-block">
+            Diseñado en Uruguay
+        </span>
+        <span class="navbar-text">
+            Powered by
+            <img src="./assets/spotify_logo_black.png" alt="Spotify logo black">
+        </span>
+    </footer>
+
+</body>
+
+</html>

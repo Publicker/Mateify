@@ -22,7 +22,7 @@
 <body>
     <!-- Navbar top-->
     <nav class="navbar px-5 d-md-flex">
-        <a class="navbar-brand mx-auto" href="#">
+        <a class="navbar-brand mx-auto" href="/">
             <img src="./assets/logo_black.png" width="30" height="30" class="d-inline-block align-top"
                 alt="Matea's logo">
             <h2 class="ml-3 mb-0">Mateify</h2>
@@ -33,11 +33,11 @@
     <main class="text-center my-5">
         <p><b>Registrate con tu dirección de email</b></p>
         <form class="main-container__form">
-            <input class="main-container__form-text primary" placeholder="Correo electrónico" type="email" required>
-            <input class="main-container__form-text primary" placeholder="Confirmar correo electrónico" type="email"
+            <input class="main-container__form-text primary field" placeholder="Correo electrónico" type="email" required>
+            <input class="main-container__form-text primary field" placeholder="Confirmar correo electrónico" type="email"
                 required>
-            <input class="main-container__form-text primary" placeholder="Contraseña" type="password" required>
-            <input class="main-container__form-text primary" placeholder="Nombre de usuario" type="password" required>
+            <input class="main-container__form-text primary field" placeholder="Contraseña" type="password" required>
+            <input class="main-container__form-text primary field" placeholder="Nombre de usuario" type="password" required>
 
             <div class="main-container__form-date mx-auto">
                 <p id="fecha-de-nacimiento">Fecha de nacimiento</p>
@@ -48,7 +48,6 @@
                         max="12">
                     <input class="main-container__form-date__age-data p-2 pl-4" type="number" placeholder="Año"
                         min="1900" max="2020">
-
                 </div>
 
                 <div class="main-container__form-date__gender">
@@ -70,8 +69,8 @@
         </form>
 
         <div class="main-container__login">
-            <p class="mx-auto pt-3">¿Ya tienes cuenta?</p>
-            <button class="main-container__login-bottoms font-weight-bold text-uppercase">Inicia sesión</button>
+            <p class="mx-auto pt-3 font-weight-bold">¿Ya tienes cuenta?</p>
+            <button onclick="location.href = 'login.html';" class="main-container__login-bottoms font-weight-bold text-uppercase">Inicia sesión</button>
         </div>
     </main>
 

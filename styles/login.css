@@ -1,28 +1,30 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    line-height: 52px;
+footer, nav a{
+    color: #000000
 }
 
-.main-head{
-    margin-top: 15px;
-    border-bottom: solid;
-    padding-bottom: 15px;
-    width: 100%;
-    text-align: center;
+nav{
+    border-bottom: 1px solid #C7C7CF;
 }
 
-.main-container{
-    text-align: center;
-    margin-top: 20px;
+p{
+    color: #000000;
 }
 
-.main-container__form{
-    border-bottom: solid;
-    padding-bottom: 20px;
+input{
+    margin-bottom: 1rem;
+}
+
+label{
+    color: #C7C7CF
+}
+
+main p{
+    font-weight: bold;
+}
+
+button.primary{
+    font-size: unset;
+    padding: 8px 30px;
 }
 
 .main-container__form-text{
@@ -37,9 +39,18 @@ body{
 .main-container__form-buttoms{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
-    
+    width: 400px;
+    align-items: center;
+}
+
+.main-container__form-buttoms div *{
+    margin: 0;
+}
+
+.main-container__form > a{
+    color: #1ED760;
 }
 
 .main-container__register-bottoms{
