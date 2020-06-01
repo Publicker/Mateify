@@ -1,0 +1,96 @@
+body{
+    height: 100%;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main-head{
+    margin-top: 15px;
+    border-bottom: solid;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.main-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-container__form{
+    border-bottom: solid;
+    padding-bottom: 20px;
+}
+
+.main-container__form-text{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.main-container__login{
+    margin-top: 30px;
+}
+
+.main-container__form-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.main-container__form-date__age{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.main-container__form-date__age-data{
+    border-radius: 25px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+.main-container__form-date__gender{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.main-container__login-bottoms{
+    color: black;
+    border-radius: 17px;
+    border: solid;
+    padding: 5px 40px;
+}
+
+.main-container__form-registro{
+    background-color: #75df0c;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+main-feet{
+    border-top: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#fecha-de-nacimiento{
+    text-align: left;
+}
+
+#other{
+    margin-left: 30px;
+}
+
+#famale{
+    margin-left: 30px;
+}
