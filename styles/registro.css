@@ -1,29 +1,38 @@
-body{
-    height: 100%;
-    line-height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer, nav a{
+    color: #000000
 }
 
-main-head{
-    margin-top: 15px;
-    border-bottom: solid;
-    padding-bottom: 15px;
-    width: 100%;
-    text-align: center;
+nav{
+    border-bottom: 1px solid #C7C7CF;
 }
 
+input.primary{
+    border: 1px solid #C7C7CF;
+    padding-left: 1.5rem;
+}
 
-.main-container{
-    text-align: center;
-    margin-top: 20px;
+button.primary{
+    padding: 8px 30px;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+label{
+    color: #C7C7CF
+}
+
+p{
+    color: #000000;
 }
 
 .main-container__form{
     border-bottom: solid;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-container__form-text{
@@ -35,11 +44,18 @@ main-head{
     margin-top: 30px;
 }
 
+.main-container__login p{
+    color: #000000;
+    width: 400px;
+    border-top: 1px solid #C7C7CF;
+}
+
 .main-container__form-date{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
+    width: 400px;
     
 }
 
@@ -51,9 +67,10 @@ main-head{
 }
 
 .main-container__form-date__age-data{
-    border-radius: 25px;
+    border-radius: 50px;
     width: 100px;
     padding-left: 5px;
+    border: 1px solid #C7C7CF;
 }
 
 .main-container__form-date__gender{
@@ -63,9 +80,10 @@ main-head{
 }
 
 .main-container__login-bottoms{
+    background-color: transparent;
     color: black;
-    border-radius: 17px;
-    border: solid;
+    border-radius: 42px;
+    border: 2px solid #000000;
     padding: 5px 40px;
 }
 
@@ -76,21 +94,13 @@ main-head{
     padding: 2px 20px;
 }
 
-main-feet{
-    border-top: solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-}
-
 #fecha-de-nacimiento{
     text-align: left;
+    color: #C7C7CF;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-#other{
-    margin-left: 30px;
-}
-
-#famale{
-    margin-left: 30px;
+footer{
+    border-top: 1px solid #C7C7CF;
 }

@@ -9,6 +9,19 @@ body {
     grid-template-rows: 7.2rem auto 7.2rem;
 }
 
+.color-gray-custom{
+    color: #C7C7CF
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.active a {
+    font-weight: bold;
+}
+
 nav h2 {
     font-family: 'Righteous', cursive;
 }
