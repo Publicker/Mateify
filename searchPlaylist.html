@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Font awesome -> Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -> CSS framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Montserrat & Righteous families fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap"
+        rel="stylesheet">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/registro.css">
+    <title>Mateify - SearchPlaylist</title>
+
+</head>
+
+<body style="background-color: black;">
+
+    <!-- Header -->
+    <nav class="navbar navbar-dark bg-dark-own px-5 d-none d-md-flex">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Matea's logo">
+            <h2 class="ml-3 mb-0">Mateify</h2>
+        </a>
+        <div class="ml-auto">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Usuario <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Search -->
+    <main class="text-center my-4">
+        <div id="container-search" class="col-12 d-flex flex-row justify-content-space-beetwen">
+            <div class="form-group has-search position-relative">
+                <input type="text" class="container-search__text primary" style="width: 700px;" placeholder="gender">
+                <button class="container-search__buton primary text-uppercase">nueva playlist</button>
+            </div>
+        </div>
+        <div id="container-list" class="col-12">
+
+          <p class="d-flex justify-content-left" style="color: white;">Playlist</p>
+          
+          <div id="container-list__songs" class="col-12 d-flex" style="padding: 0; flex-wrap: wrap;">
+
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+                <img class="col-6 col-md-2" style="padding: 0; margin: 10px; max-width: 150px; min-height: 200px;" src="./assets/Miniatura.jpg" alt="miniatura de canciones">
+
+          </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="navbar navbar-dark bg-dark-own px-5">
+        <span class="navbar-text d-none d-md-block">
+            Diseñado en Uruguay
+        </span>
+        <span class="navbar-text">
+            Powered by
+            <img src="./assets/spotify_logo.png" alt="logo de spotify">
+        </span>
+    </footer>
+    
+</body>
+
+</html>
