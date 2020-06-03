@@ -35,6 +35,13 @@ input {
     box-shadow: none;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 button{
     cursor: pointer;
 }
@@ -53,9 +60,7 @@ button.primary {
 /* Input */
 input.primary {
     font-size: 1.2rem;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 3rem;
+    padding: 12px 0px 12px 3rem;
     border-radius: 33px;
     border: 0;
 }
