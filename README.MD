@@ -3,7 +3,11 @@
 
 
 ## Contents
-[TOC]
+- [¿Cómo nos organizamos?](#como-nos-organizamos)
+- [¿Ante las dudas qué haciamos?](#¿Ante las dudas qué haciamos?)
+- [Git](#git)
+- [Bootstrap](#bootstrap)
+- [Inconvenientes](#inconvenientes)
 
 ## ¿Cómo nos organizamos?
 Nos dividimos las tareas en base a las screens que teníamos para hacer tomando en cuanta las que eran más similares. Al principio separamos las que eran más parecidas:
@@ -24,8 +28,7 @@ Teniamos como unos pasos a seguir ante dudas, que se fue dando naturalmente:
 ## Git
 Al principio no fue fácil manejar la herramienta, poco a poco fuimos mejorando, pero igualmente sentimos que no la usamos de la manera correcta.
 
-##Bootstrap
-
+## Bootstrap
 Nos adaptamos medianamente rápido a la utilización del Framework; pero tampoco pensamos que lo usamos al 100%.
 
 ## Subir la página
