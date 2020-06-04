@@ -9,6 +9,14 @@ body {
     grid-template-rows: 7.2rem auto 7.2rem;
 }
 
+.bg-dark-own {
+    background-color: #000000;
+}
+
+.fit-image {
+    object-fit: cover;
+}
+
 .color-gray-custom{
     color: #C7C7CF
 }
@@ -42,7 +50,7 @@ button:focus {
     outline: none;
 }
 
-button{
+button, i, .cursor-pointer{
     cursor: pointer;
 }
 
