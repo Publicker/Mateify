@@ -35,4 +35,20 @@ Nos adaptamos medianamente rápido a la utilización del Framework; pero tampoco
 Gracias a la documentación que mandó Maria fue bastante fácil subir la página a través de GitHub Pages (https://publicker.github.io/Mateify/)
 
 ## Inconvenientes
-Jairo sufrió no tener internet en dos días (bastantes cruciales) por ende no pudimos terminar todas las screens como esperabamos. Esperamos se puedan comprender estos inconvenientes.
+Jairo sufrió no tener internet en dos días (bastantes cruciales) por ende no pudimos terminar todas las screens como esperábamos. Pedimos disculpas y comprensión sobreestos inconvenientes. El peso cayó particularmente sobre la screen searchPlaylist, haciendo que esta no se pudiera terminar, **igualmente hay planes para seguir haciéndola hasta que quede**.
+
+## Flujos
+Cuando se abre la página se va a ver el Home.
+**Desde el home**:
+1. Click en "Nueva Playlist" -> New Playlist screen
+2. Click en "Registrarse" -> Register screen
+3. Click en "Iniciar Sesión" -> Login screen
+
+**Desde NewPlaylist**
+1. Click en "Show More" -> Search Playlist screen
+2. Click en el logo de Mateify -> Home screen
+
+**Desde SearchPlaylist**
+1. Click en "Show More" -> Search Playlist screen
+2. Click en cualquier carátula -> Edit Playlist screen
+3. Click en el logo de Mateify -> Home screen
