@@ -4,7 +4,7 @@
 
 ## Contents
 - [¿Cómo nos organizamos?](#cómo-nos-organizamos)
-- [¿Ante las dudas qué haciamos?](#ante-las-dudas-qué-hacíamos?)
+- [¿Ante las dudas qué haciamos?](#ante-las-dudas-qué-hacíamos)
 - [Git](#git)
 - [Bootstrap](#bootstrap)
 - [Inconvenientes](#inconvenientes)
