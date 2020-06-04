@@ -49,6 +49,4 @@ Cuando se abre la página se va a ver el Home.
 2. Click en el logo de Mateify -> Home screen
 
 **Desde SearchPlaylist**
-1. Click en "Show More" -> Search Playlist screen
-2. Click en cualquier carátula -> Edit Playlist screen
-3. Click en el logo de Mateify -> Home screen
+1. Click en cualquier carátula -> Edit Playlist screen
