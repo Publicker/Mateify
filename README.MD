@@ -3,8 +3,8 @@
 
 
 ## Contents
-- [¿Cómo nos organizamos?](#como-nos-organizamos)
-- [¿Ante las dudas qué haciamos?](#¿Ante las dudas qué haciamos?)
+- [¿Cómo nos organizamos?](#cómo-nos-organizamos)
+- [¿Ante las dudas qué haciamos?](#ante-las-dudas-qué-hacíamos?)
 - [Git](#git)
 - [Bootstrap](#bootstrap)
 - [Inconvenientes](#inconvenientes)
@@ -17,7 +17,7 @@ Nos dividimos las tareas en base a las screens que teníamos para hacer tomando 
 - Search Playlist (incluyendo el efecto del hover)
 
 
-## ¿Ante las dudas qué haciamos?
+## ¿Ante las dudas qué hacíamos?
 Teniamos como unos pasos a seguir ante dudas, que se fue dando naturalmente:
 1. Googlear
 2. Probar lo que habiamos encontrado en Google
