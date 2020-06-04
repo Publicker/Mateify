@@ -7,26 +7,31 @@
 
     <!-- Font awesome -> Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <!-- Bootstrap -> CSS framework -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- Montserrat & Righteous families fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Righteous&display=swap"
+        rel="stylesheet">
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/newPlaylist.css">
 </head>
+
 <body>
     <!-- NavBar top-->
-    <nav class="navbar navbar-dark bg-dark-own px-5 d-none d-md-flex">
-        <a class="navbar-brand" href="#">
-            <img src="./assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Matea's logo">
+    <nav class="navbar navbar-dark bg-dark-own px-5 d-flex sticky-top">
+        <i class="d-block d-md-none fa fa-angle-up"></i>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo.png" width="30" height="30" class="d-none d-md-inline-block align-top" alt="Matea's logo">
             <h2 class="ml-3 mb-0">Mateify</h2>
         </a>
         <div class="ml-auto">
-            <ul class="navbar-nav flex-row">
+            <i class="d-block d-md-none fa fa-search"></i>
+            <ul class="d-none d-md-flex navbar-nav flex-row">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Usuario <span class="sr-only">(current)</span></a>
                 </li>
@@ -34,21 +39,146 @@
         </div>
     </nav>
 
-    <!-- Main image with inputs -->
-    <main class="position-relative d-flex justify-content-center align-items-center w-100 h-100 p-5">
-        <img class="position-absolute w-100 h-100 fit-image" src="./assets/people.png" alt="People dancing">
-        <div class="overlay"></div>
-        <div class="d-flex flex-column">
-            <img src="./assets/logo.png" width="80" height="80" class="d-block d-md-none align-top fit-image mx-auto mb-5" alt="Matea's logo">
-            <h1 class="col-12 text-uppercase font-weight-bold text-center">Pongamos música, juntos</h1>
-            <h3 class="col-12 d-block d-md-none text-center">Busca o crea una playlist</h3>
-            <div id="container-form" class="col-12 col-md-10 mx-auto d-flex flex-column">
+    <!-- Main: Inputs and list -->
+    <main class="position-relative d-flex flex-column justify-content-center align-items-center w-100 h-100 px-5">
+        <!-- Inputs: Name of list and song's searcher -->
+        <div class="col-md-9 col-lg-8 col-xl-5 mb-5">
+            <input class="mb-4 text-center font-weight-bold px-4 col-10 mx-auto d-flex" type="text"
+                placeholder="Nombre de la playlist" value="Baila sin parar" />
+
+            <div class="col-12 d-none d-md-flex flex-column m-0 p-0">
                 <div class="form-group has-search position-relative">
-                    <span class="fa fa-search form-control-feedback position-absolute d-flex align-items-center w-100 h-100"></span>
-                    <input type="text" class="form-control primary" placeholder="Buscar una playlist">
+                    <span
+                        class="fa fa-search form-control-feedback position-absolute d-flex align-items-center w-100 h-100"></span>
+                    <input type="text" class="form-control primary" placeholder="Buscar una Canción">
                 </div>
-                <button class="primary col-12 col-md-6 mx-auto">Nueva playlist</button>
             </div>
+        </div>
+
+        <!-- Table of songs -->
+        <div id="container-table" class="col-12 col-md-10 w-100 p-0">
+            <table class="w-100">
+                <caption class="mb-4">Canciones populares en tu zona</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Agregar
+                        </th>
+                        <th>
+                            Título
+                        </th>
+                        <th>
+                            Autor
+                        </th>
+                        <th>
+                            Reproducciones
+                        </th>
+                        <th>
+                            Duración
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>1</span>
+                        </td>
+                        <td>
+                            <i class="circle"></i>
+                        </td>
+                        <td>
+                            <span>
+                                Dame Dame
+                            </span>
+                        </td>
+                        <td>
+                            <span>Claydee feat</span>
+                        </td>
+                        <td>
+                            <span>39,566</span>
+                        </td>
+                        <td>
+                            <span>4:21</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>2</span>
+                        </td>
+                        <td>
+                            <i class="circle"></i>
+                        </td>
+                        <td>
+                            <span>
+                                Kamelia
+                            </span>
+                        </td>
+                        <td>
+                            <span>DDY Nunes</span>
+                        </td>
+                        <td>
+                            <span>32,420</span>
+                        </td>
+                        <td>
+                            <span>3:30</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>3</span>
+                        </td>
+                        <td>
+                            <i class="circle"></i>
+                        </td>
+                        <td>
+                            <span>
+                                Laugh Till You Cry
+                            </span>
+                        </td>
+                        <td>
+                            <span>Faydee</span>
+                        </td>
+                        <td>
+                            <span>28,221</span>
+                        </td>
+                        <td>
+                            <span>3:56</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>4</span>
+                        </td>
+                        <td>
+                            <i class="circle"></i>
+                        </td>
+                        <td>
+                            <span>
+                                I don't know
+                            </span>
+                        </td>
+                        <td>
+                            <span>Deejay Fly</span>
+                        </td>
+                        <td>
+                            <span>21,528</span>
+                        </td>
+                        <td>
+                            <span>2:26</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div onclick="location.href = 'searchPlaylist.html';" class="d-flex align-items-center mt-3 cursor-pointer">
+            <p class="m-0 mr-3">Show More</p>
+            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.67715 10.5019C7.5345 10.5015 7.39707 10.4473 7.2915 10.3498L1.05202 4.58681C0.872219 4.42037 0.769813 4.18457 0.769974 3.93738V2.22313C0.770052 1.91203 0.932154 1.62423 1.19605 1.46665C1.45994 1.30908 1.78619 1.30529 2.05356 1.45669L6.808 4.14216C7.08616 4.30372 7.1828 4.6639 7.02385 4.94663C6.8649 5.22937 6.51056 5.3276 6.2324 5.16603L1.92117 2.72044V3.80867L7.67715 9.12696L13.4331 3.80867V2.23483L9.14493 5.16018C8.97449 5.29049 8.74714 5.31432 8.55413 5.22212C8.36111 5.12992 8.23407 4.9368 8.22399 4.72027C8.2139 4.50374 8.32243 4.29928 8.50602 4.18896L13.2374 0.982778C13.5025 0.803799 13.8429 0.787531 14.1233 0.940444C14.4038 1.09336 14.5787 1.39066 14.5786 1.71412V3.96079C14.5787 4.20798 14.4763 4.44377 14.2965 4.61022L8.05705 10.3732C7.94966 10.4609 7.81486 10.5066 7.67715 10.5019Z" fill="white"></path>
+            </svg>
         </div>
     </main>
 
@@ -63,4 +193,5 @@
         </span>
     </footer>
 </body>
+
 </html>

@@ -1,7 +1,3 @@
-.fit-image {
-    object-fit: cover;
-}
-
 main > img {
     z-index: -20;
 }
@@ -25,11 +21,7 @@ main button.primary{
     background-color: rgba(0,0,0,0.85);
 }
 
-.bg-dark-own {
-    background-color: #000000;
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     body {
         grid-template-rows: unset;
     }
@@ -51,7 +43,7 @@ main button.primary{
         content:'CREA UNA PLAYLIST NUEVA'; 
     }
 
-    #footer{
+    footer.navbar{
         position: absolute;
         bottom: 0;
         background-color: transparent;
