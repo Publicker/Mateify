@@ -1,0 +1,20 @@
+#container-list__songs > img{
+    padding: 0;
+    margin: 10px;
+    max-width: 150px;
+    min-height: 175px;
+}
+
+#container-list__songs{
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#container-list > p{
+    color: white;
+}
+
+#container-search__gender > input{
+    width: 900px;
+    margin-right: 80px;
+}
