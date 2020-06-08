@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
 
     <!-- Font awesome -> Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <!-- Bootstrap -> CSS framework -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- Montserrat & Righteous families fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Righteous&display=swap"
+        rel="stylesheet">
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="./styles/main.css">
@@ -29,7 +32,7 @@
         <div class="ml-auto">
             <ul class="navbar-nav flex-row">
                 <li class="nav-item mr-5">
-                    <a class="nav-link" href="./registro.html">Registrarse</a>
+                    <a class="nav-link" href="./register.html">Registrarse</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="./login.html">Iniciar Sesión <span class="sr-only">(current)</span></a>
@@ -43,15 +46,18 @@
         <img class="position-absolute w-100 h-100 fit-image" src="./assets/people.png" alt="People dancing">
         <div class="overlay"></div>
         <div class="d-flex flex-column">
-            <img src="./assets/logo.png" width="80" height="80" class="d-block d-md-none align-top fit-image mx-auto mb-5" alt="Matea's logo">
+            <img src="./assets/logo.png" width="80" height="80"
+                class="d-block d-md-none align-top fit-image mx-auto mb-5" alt="Matea's logo">
             <h1 class="col-12 text-uppercase font-weight-bold text-center">Pongamos música, juntos</h1>
             <h3 class="col-12 d-block d-md-none text-center">Busca o crea una playlist</h3>
             <div id="container-form" class="col-12 col-md-10 mx-auto d-flex flex-column">
                 <div class="form-group has-search position-relative">
-                    <span class="fa fa-search form-control-feedback position-absolute d-flex align-items-center w-100 h-100"></span>
+                    <span
+                        class="fa fa-search form-control-feedback position-absolute d-flex align-items-center w-100 h-100"></span>
                     <input type="text" class="form-control border-0 primary" placeholder="Buscar una playlist">
                 </div>
-                <button onclick="location.href = 'newPlaylist.html';" class="primary col-12 col-md-6 mx-auto">Nueva playlist</button>
+                <button onclick="location.href = 'newPlaylist.html';" class="primary col-12 col-md-6 mx-auto">Nueva
+                    playlist</button>
             </div>
         </div>
     </main>
@@ -67,5 +73,17 @@
         </span>
     </footer>
 </body>
+
+<script>
+    var input = document.getElementById("searchInput");
+
+    // Execute a function when the user releases a key on the keyboard
+    input.addEventListener("keyup", function (event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+            location.href = 'searchPlaylist.html';
+        }
+    });
+</script>
 
 </html>
